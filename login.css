@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+}
+.form {
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: rgb(49, 49, 49);
+  color: white;
+}
+#SignUp {
+  background-color: gray;
+  width: 50%;
+  height: 50px;
+  transition: 0.5s ease;
+}
+#SignUp:hover {
+  background-color: darkgreen;
+  color: aliceblue;
+}
+#LogIn {
+  background-color: rgb(20, 200, 125);
+  width: 50%;
+  height: 50px;
+  transition: 0.5s ease;
+  color: aliceblue;
+}
+#LogIn:hover {
+  background-color: darkgreen;
+  color: aliceblue;
+}
+.col a {
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+#email {
+  background-color: rgb(49, 49, 49);
+  border-color: gray;
+  border-radius: 0px;
+  color: aliceblue;
+}
+#password {
+  background-color: rgb(49, 49, 49);
+  border-color: gray;
+  border-radius: 0px;
+  color: aliceblue;
+}
+.btn-primary {
+  background-color: rgb(20, 200, 125);
+  border: none;
+  width: 520px;
+  height: 60px;
+  border-radius: 0%;
+  font-size: 30px;
+}
+#btn:hover {
+  background-color: rgb(20, 200, 125);
+  color: aliceblue;
+}
+#a {
+  text-decoration: none;
+  color: rgb(186, 186, 186);
+}
+#forgot {
+  text-align: right;
+  color: rgba(24, 111, 241, 0.969);
+  text-decoration: none;
+}
